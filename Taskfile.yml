@@ -1,0 +1,21 @@
+version: '3'
+
+vars:
+  DB_URL: postgres://demo:demo@localhost:5432/demo
+
+tasks:
+  migrate:
+    desc: Запуск миграции
+    cmds:
+      - psql {{.DB_URL}} -f migration/init.sql
+
+  run:
+    desc: Запуск main.go
+    cmds:
+      - go run cmd/main.go
+
+  dev:
+    desc: Запуск миграции и main.go
+    cmds:
+      - task: migrate
+      - task: run
