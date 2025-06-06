@@ -10,8 +10,8 @@ type Repository struct {
 	db *pgxpool.Pool
 }
 
-func NewTaskRepository(db *pgxpool.Pool) TaskRepository {
-	return &Repository{db: db}
+func NewPostgresRepository(pool *pgxpool.Pool) *Repository {
+	return &Repository{db: pool}
 }
 
 func (r *Repository) CreateTask(ctx context.Context, task *models.Task) error {
