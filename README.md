@@ -34,7 +34,7 @@ docker-compose up
 task dev
 ```
 
-Сервис будет доступен по адресу: `http://localhost:3000`
+Сервис будет доступен по адресу: `http://localhost:your_port`
 
 ---
 
