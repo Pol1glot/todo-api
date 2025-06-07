@@ -30,8 +30,7 @@ docker-compose up
 ### 4. Запустить приложение
 
 ```bash
-go run main.go
-# или, если используешь taskfile
+# через taskfile
 task dev
 ```
 
