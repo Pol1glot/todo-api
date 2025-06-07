@@ -10,11 +10,6 @@
 
 ### 1. Клонировать репозиторий
 
-```bash
-git clone https://github.com/your-username/todo-api.git
-cd todo-api
-````
-
 ### 2. Создать `.env` файл в корне проекта
 
 ```env
