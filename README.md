@@ -68,11 +68,13 @@ POST /tasks
 
 📷 **Postman**:
 Скриншот успешного запроса POST `/tasks`
-![изображение](https://github.com/user-attachments/assets/ef3eef11-a383-4a3e-9337-cf2e6df2a929)
+![изображение](https://github.com/user-attachments/assets/aa33a820-c960-44b5-8bc3-574bea796c82)
+
 
 
 
 📷 **PostgreSQL**:
 Скриншот таблицы `tasks` с добавленной записью
-![изображение](https://github.com/user-attachments/assets/e782b1b3-91d2-4547-95d9-7457ac427a71)
+![изображение](https://github.com/user-attachments/assets/157e54b1-281c-4bdb-9370-08c202a3a2f9)
+
 
